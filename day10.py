@@ -44,7 +44,7 @@ for i in range(2, len(l)):
     print(l[i], end=' ')  # 3 2 1
 print()
 # #iterate in steps of 2
-for i in range(0, len(l), 2):
+for i in range(0, len(l), 2): #  0 2 4  
     print(l[i], end=' ')   #5 3 1 
 print()
 
@@ -60,16 +60,16 @@ s = {5,4,3,2,1}
 d = {5:'e', 4:'d', 3:'c', 2:'b', 1:'a'}
 w = 'rakesh'
 r = range(5,0,-1)
-print(t)
+print()
 
 # #continue 
-for x in range(1,11):
+for x in range(1,11): # 1 2 3 4 5 6 7 8 9 10
     if x % 3 == 0:
         continue 
-    print(x,end=' ')     # 1 2 3 4 5 6 7 8 9 10 
+    print(x,end=' ')     # 1 2  4 5  7 8  10 
 print()
-# #break
-for x in range(1,11):
+ #break
+for x in range(1,11):    # 1 2 3 4 5 6 7 8 9 10
     if x % 3 == 0:      
         break 
     print(x,end=' ')   # 1    2
@@ -92,13 +92,12 @@ print()
 for x in range(1, 11):
     if x % 3 == 0:
         break 
-    print(x, end=' ')     # 1 2
-else: 
-    print('Loop completed successfully') 
+    print(x, end=' ')     # 1 2 
+else: dat 
 print('\n')
 # #assert
-# n = 10 
-# assert n > 5,  
-# print('A')
-# assert n < 5, 'N is not lesser than 5'  # N is not lesser than 5
-# print('B')
+n = 10 
+assert n > 5,  
+print('A')   # A
+assert n < 5, 'N is not lesser than 5'  # N is not lesser than 5
+print('B')
